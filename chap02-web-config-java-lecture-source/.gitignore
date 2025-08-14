@@ -1,0 +1,46 @@
+# ========== 운영체제 관련 ==========
+.DS_Store      # macOS
+Thumbs.db      # Windows
+*.swp          # Vim 임시 파일
+
+# ========== IDE 설정 ==========
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# VSCode
+.vscode/
+
+# ========== 빌드 디렉토리 ==========
+/bin/
+/out/
+/target/
+/build/
+
+# ========== 컴파일 결과물 ==========
+*.class
+
+# ========== 로그 파일 ==========
+*.log
+
+# ========== 패키징 파일 ==========
+#*.jar
+.springBeans
+*.war
+*.ear
+
+# ========== 환경 파일 (예: DB 정보 등) ==========
+.env
+*.properties~
+application-*.properties
+application-*.yml
+
+# ========== 기타 ==========
+*.bak
+*.tmp
+*.lock
